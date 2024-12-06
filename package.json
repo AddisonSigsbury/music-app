@@ -1,0 +1,21 @@
+{
+	"name": "music-recommendation-app",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node backend/server.js"
+	},
+	"dependencies": {
+		"@google/generative-ai": "^0.21.0",
+		"axios": "^1.7.8",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.6",
+		"express": "^4.21.1",
+		"react-router-dom": "^7.0.2",
+		"spotify-web-api-node": "^5.0.2"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}

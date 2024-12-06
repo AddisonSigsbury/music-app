@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>Music Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="recommendations.html">Recommendations</a></li>
+			<li><a href="info.html">Info</a></li>
+		</ul>
+	  </nav>
+    <div class="container">
+        <header>Music Recommendation</header>
+        <form id="artist-form">
+            <input type="text" id="artist-input" placeholder="Enter music artists (comma-separated)" required>
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+		<div id="top-artists"></div>
+
+        <div id="results"></div>
+		<div id="recommendations" style="display: flex; gap: 20px;">
+			<div id="artist-column" style="flex: 1;">
+				<h2>Artists</h2>
+				<ul></ul>
+			</div>
+			<div id="album-column" style="flex: 1;">
+				<h2>Albums</h2>
+				<ul></ul>
+			</div>
+			<div id="song-column" style="flex: 1;">
+				<h2>Songs</h2>
+				<ul></ul>
+			</div>
+		</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
